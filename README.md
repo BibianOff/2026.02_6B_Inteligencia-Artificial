@@ -1,7 +1,7 @@
 
 # Lista de Exercícios Python
 
-Este repositório contem uma seleção de 50 exercícios já resolvidos estruturados usados para praticar, aprofundar e consolidar habilidades em Python — desde os fundamentos até conceitos intermediários.
+Este repositório contem uma seleção de exercícios já resolvidos estruturados usados para praticar, aprofundar e consolidar habilidades em Python — desde os fundamentos até conceitos avançados para usos de Analises de Dados e estudos de Inteligência Artificial. Ao passo que for sendo adicionado mais conteúdos no repositório o READ ME será atualizado
 
 
 
