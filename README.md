@@ -1,24 +1,18 @@
-
 # Lista de Exercícios Python
 
-Este repositório contem uma seleção de 50 exercícios já resolvidos estruturados usados para praticar, aprofundar e consolidar habilidades em Python — desde os fundamentos até conceitos intermediários.
-
-
-
+Este repositório contem uma seleção de 50 exercícios já resolvidos estruturados usados para praticar, aprofundar e consolidar habilidades em Python — desde os fundamentos até conceitos intermediários e Machine Learning.
 
 ## Acknowledgements
 
- - [Curso Python Básico](https://www.ev.org.br/cursos/linguagem-de-programacao-python-basico?classId=8fe99d3e-2a82-498a-9efb-de105a254ded)
-
- - [Documentação Python](https://docs.python.org/3/)
-
- - [Documentação NumPy](https://numpy.org/doc/)
-
- - [Documentação SciPy](https://docs.scipy.org/doc/)
-
- - [Documentação Pandas](https://pandas.pydata.org/docs/)
-
- - [Documentação Matplotlib](https://matplotlib.org/stable/contents.html) 
+- [Curso Python Básico](https://www.ev.org.br/cursos/linguagem-de-programacao-python-basico?classId=8fe99d3e-2a82-498a-9efb-de105a254ded)
+- [Documentação Python](https://docs.python.org/3/)
+- [Documentação NumPy](https://numpy.org/doc/)
+- [Documentação SciPy](https://docs.scipy.org/doc/)
+- [Documentação Pandas](https://pandas.pydata.org/docs/)
+- [Documentação Matplotlib](https://matplotlib.org/stable/contents.html)
+- [Documentação Seaborn](https://seaborn.pydata.org/)
+- [Documentação Scikit-Learn](https://scikit-learn.org/stable/)
+- [Kaggle Datasets & Hub](https://www.kaggle.com/)
 
 ## Features
 
@@ -45,12 +39,19 @@ Este repositório contem uma seleção de 50 exercícios já resolvidos estrutur
   - Tratamento de dados faltantes/nulos (`dropna`, `fillna`, `interpolate`) e duplicados (`duplicated`)
   - Agrupamentos, agregações (`groupby`, `mean`, `median`) e tabelas dinâmicas (`pivot_table`)
   - Junção e combinação de conjuntos de dados (`merge` / joins)
-- **Visualização de Dados (Matplotlib):**
+- **Visualização de Dados (Matplotlib & Seaborn):**
   - Gráficos de linha, dispersão (2D com color/size mapping e 3D), histogramas, pizza e barras (horizontais, coloridas e empilhadas)
   - Customização de gráficos: anotações (`annotate`), legendas, subplots (`subplot`, `tight_layout`), intervalos de confiança (`fill_between`), eixos e grades
+  - Mapas de calor estéticos (`heatmap`) e gráficos de distribuição por categorias (`pairplot`, `boxplot`)
   - Exportação e salvamento de visualizações (`savefig` em PDF)
-  
+- **Aprendizado de Máquina e Pré-processamento (Scikit-Learn):**
+  - Divisão de bases de dados em treino e teste (`train_test_split`)
+  - Codificação de variáveis categóricas para formato numérico (`LabelEncoder`)
+  - Treinamento de modelos de classificação baseados em Máquinas de Vetores de Suporte (`SVM` / `SVC` com kernel linear)
+  - Avaliação de desempenho preditivo através de métricas de acurácia (`accuracy_score`) e matrizes de confusão (`confusion_matrix`, `ConfusionMatrixDisplay`)
+- **Integração com Plataformas de Dados (Kaggle & KaggleHub):**
+  - Importação automatizada de datasets públicos e tratamento estruturado de caminhos de diretórios locais/nuvem (`os.walk`)
+
 ## Authors
 
 - [@BibianOff](https://github.com/BibianOff)
-
