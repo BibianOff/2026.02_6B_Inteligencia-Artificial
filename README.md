@@ -1,6 +1,6 @@
 # Lista de Exercícios Python
 
-Este repositório contem uma seleção de 50 exercícios já resolvidos estruturados usados para praticar, aprofundar e consolidar habilidades em Python — desde os fundamentos até conceitos intermediários e Machine Learning.
+Este repositório contém uma seleção de 50 exercícios já resolvidos estruturados, usados para praticar, aprofundar e consolidar habilidades em Python — desde os fundamentos até conceitos intermediários e Machine Learning.
 
 ## Acknowledgements
 
@@ -44,11 +44,13 @@ Este repositório contem uma seleção de 50 exercícios já resolvidos estrutur
   - Customização de gráficos: anotações (`annotate`), legendas, subplots (`subplot`, `tight_layout`), intervalos de confiança (`fill_between`), eixos e grades
   - Mapas de calor estéticos (`heatmap`) e gráficos de distribuição por categorias (`pairplot`, `boxplot`)
   - Exportação e salvamento de visualizações (`savefig` em PDF)
-- **Aprendizado de Máquina e Pré-processamento (Scikit-Learn):**
-  - Divisão de bases de dados em treino e teste (`train_test_split`)
+- **Aprendizagem Automática e Pré-processamento (Scikit-Learn):**
+  - Importação de conjuntos de dados integrados (`load_iris`) e divisão em treino e teste (`train_test_split`)
   - Codificação de variáveis categóricas para formato numérico (`LabelEncoder`)
-  - Treinamento de modelos de classificação baseados em Máquinas de Vetores de Suporte (`SVM` / `SVC` com kernel linear)
-  - Avaliação de desempenho preditivo através de métricas de acurácia (`accuracy_score`) e matrizes de confusão (`confusion_matrix`, `ConfusionMatrixDisplay`)
+  - Treino de diferentes modelos de classificação: Máquinas de Vetores de Suporte (`SVM` / `SVC`), Árvores de Decisão (`DecisionTreeClassifier`), Florestas Aleatórias (`RandomForestClassifier`) e `GradientBoostingClassifier`
+  - Otimização de hiperparâmetros e validação cruzada (`GridSearchCV`) para refinar os algoritmos matematicamente
+  - Avaliação de desempenho preditivo através de métricas de acurácia (`accuracy_score`), sensibilidade (`recall_score`) e matrizes de confusão (`confusion_matrix`, `ConfusionMatrixDisplay`)
+  - Criação de tabelas comparativas de desempenho de múltiplos modelos através do Pandas.
 - **Integração com Plataformas de Dados (Kaggle & KaggleHub):**
   - Importação automatizada de datasets públicos e tratamento estruturado de caminhos de diretórios locais/nuvem (`os.walk`)
 
